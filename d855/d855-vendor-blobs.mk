@@ -17,9 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/lge/d855/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/d855/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/lge/d855/proprietary/bin/location-mq:system/bin/location-mq \
-    vendor/lge/d855/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
-    vendor/lge/d855/proprietary/bin/quipc_main:system/bin/quipc_main \
     vendor/lge/d855/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/lge/d855/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/lge/d855/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -30,11 +27,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d855/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/lge/d855/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/lge/d855/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/lge/d855/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
     vendor/lge/d855/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/lge/d855/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/lge/d855/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/lge/d855/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/lge/d855/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/lge/d855/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/lge/d855/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
@@ -44,10 +39,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d855/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/lge/d855/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/lge/d855/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+    vendor/lge/d855/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
     vendor/lge/d855/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/lge/d855/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/lge/d855/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
-    vendor/lge/d855/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
     vendor/lge/d855/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/lge/d855/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/lge/d855/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -56,13 +51,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d855/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/d855/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/lge/d855/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/lge/d855/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/lge/d855/proprietary/lib/libuicc.so:system/lib/libuicc.so \
     vendor/lge/d855/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
     vendor/lge/d855/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
     vendor/lge/d855/proprietary/lib/libvss_nv_idl.so:system/lib/libvss_nv_idl.so \
     vendor/lge/d855/proprietary/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
-    vendor/lge/d855/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/lge/d855/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/lge/d855/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/lge/d855/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/lge/d855/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/lge/d855/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/lge/d855/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
