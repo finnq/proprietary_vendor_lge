@@ -40,3 +40,19 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d855/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/lge/d855/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/lge/d855/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
+
+PRODUCT_COPY_FILES += \
+    vendor/lge/d855/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/lge/d855/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
+    vendor/lge/d855/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+    vendor/lge/d855/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/lge/d855/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/lge/d855/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
+    vendor/lge/d855/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/lge/d855/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+    vendor/lge/d855/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+    vendor/lge/d855/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
+    vendor/lge/d855/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
+    vendor/lge/d855/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+    vendor/lge/d855/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/lge/d855/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so

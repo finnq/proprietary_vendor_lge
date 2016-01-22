@@ -176,21 +176,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/g3-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/lge/g3-common/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/lge/g3-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/lge/g3-common/proprietary/bin/radish:system/bin/radish \
     vendor/lge/g3-common/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
